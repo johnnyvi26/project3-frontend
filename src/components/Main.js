@@ -21,7 +21,7 @@ function Main(props) {
         await fetch(URL, {
             method: "POST",
             headers: {
-                "Context-type": "Application/json",
+                "Context-Type": "Application/json",
             },
             body: JSON.stringify(game),
         });
