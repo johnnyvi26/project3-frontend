@@ -5,9 +5,9 @@ function Index(props) {
 
     // state to hold formData
     const [newForm, setNewForm] = useState({
-        name: '',
-        image: '',
-        bio: '',
+        name: "",
+        image: "",
+        bio: "",
     });
 
     // handleChange Function for form
@@ -20,9 +20,9 @@ function Index(props) {
         event.preventDefault();
         props.createGame(newForm);
         setNewForm({
-            name: '',
-            image: '',
-            bio: '',
+            name: "",
+            image: "",
+            bio: "",
         });
     };
 
