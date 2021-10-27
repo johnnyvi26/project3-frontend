@@ -29,12 +29,12 @@ function Show(props) {
 
     return(
         <div className="game">
-            <h1>{game.name}</h1>
-            <img src={game.image} alt={game.name} />
-            <h2>{game.bio}</h2>
             <button id="delete" onClick={removeGame}>
                 DELETE
             </button>
+            <h1>{game.name}</h1>
+            <img src={game.image} alt={game.name} />
+            <h2>{game.bio}</h2>
 
             <form onSubmit={handleSubmit}>
                 <input
@@ -43,21 +43,21 @@ function Show(props) {
                     name="name"
                     placeholder="name"
                     onChange={handleChange}
-                />
+                /><br />
                 <input
                     type="text"
                     value={editForm.image}
                     name="image"
                     placeholder="image URL"
                     onChange={handleChange}
-                />
+                /><br />
                 <input
                     type="text"
                     value={editForm.bio}
                     name="bio"
                     placeholder="bio"
                     onChange={handleChange}
-                />
+                /><br />
                 <input type="submit" value="Update game" />
             </form>
         </div>

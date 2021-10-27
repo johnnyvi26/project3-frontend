@@ -31,7 +31,7 @@ function Index(props) {
     const loaded = () => {
         return props.games.map((game)=>(
             <div key={game._id} className="game">
-                <Link to={`/games/${game._id}`}><h1>{game.name}</h1></Link>
+                <Link to={`/games/${game._id}`}><h1 className="game-title">{game.name}</h1></Link>
                 <img src={game.image} alt={game.name}/>
                 <h3>{game.bio}</h3>
             </div>
@@ -53,21 +53,21 @@ function Index(props) {
                     name="name"
                     placeholder="name"
                     onChange={handleChange}
-                />
+                /><br />
                 <input
                     type="text"
                     value={newForm.image}
                     name="image"
                     placeholder="image URL"
                     onChange={handleChange}
-                />
+                /><br />
                 <input
                     type="text"
                     value={newForm.bio}
                     name="bio"
                     placeholder="bio"
                     onChange={handleChange}
-                />
+                /><br />
                 <input type="submit" value="Create Game" />
             </form>
             {props.games ? loaded() : loading()}
