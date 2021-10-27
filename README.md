@@ -25,13 +25,12 @@ GameHub is a app where you're able to see a personal list of all the games in yo
 
 # Screen Shots
 
-![Screen Shot 2021-10-08 at 2 14 51 AM](https://user-images.githubusercontent.com/82793235/136507568-2031052e-1f9c-4ca1-ade9-0ae3bdb44a2e.png)
-![Screen Shot 2021-10-08 at 2 15 18 AM](https://user-images.githubusercontent.com/82793235/136507570-da3595c2-b5d1-4497-b009-cb369d803a24.png)
-![Screen Shot 2021-10-08 at 2 14 24 AM](https://user-images.githubusercontent.com/82793235/136507573-485f1252-0edf-4dcb-83e4-10b3cdef4222.png)
+![Screen Shot 2021-10-26 at 11 38 56 PM](https://user-images.githubusercontent.com/82793235/138996309-bc913bdf-5108-48d4-bc3a-0e0391d78e6d.png)
+![Screen Shot 2021-10-26 at 11 39 22 PM](https://user-images.githubusercontent.com/82793235/138996310-5d843ac3-663f-4e22-a0bf-a0ea6d3f5840.png)
 
 
 
-# Getting starter
+# Getting started
 
 [Link to app!](https://admiring-morse-93ca80.netlify.app/) to deploy the application!
 
