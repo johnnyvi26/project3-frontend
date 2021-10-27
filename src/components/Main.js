@@ -16,7 +16,7 @@ function Main(props) {
         setGames(data);
     };
 
-    const createGame = async (game) => {
+    const createGame = async(game) => {
         // make post request to create game
         await fetch(URL, {
             method: "POST",
